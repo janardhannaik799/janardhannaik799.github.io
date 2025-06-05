@@ -2,75 +2,100 @@
 <html>
 <head>
   <title>Janardhan Naik Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #e8eae7;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
       margin: 0;
       padding: 20px;
     }
-
+    
     .container {
-      max-width: 900px;
-      margin: auto;
-      background: rgb(171, 170, 171);
-      border: 2px solid #989b9d;
-      padding: 20px;
-      border-radius: 10px;
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-
+    
     .header {
       display: flex;
-      justify-content: space-between;
+      flex-wrap: wrap;
       align-items: center;
-      background-color: #abcaeb;
-      color: rgb(14, 3, 3);
-      padding: 20px;
-      border-radius: 8px;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
     }
-
+    
     .header-text {
       flex: 1;
+      min-width: 250px;
     }
-
+    
     .header img {
-      width: 150px;
-      height: 200px;
-      border-radius: 10px;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
       object-fit: cover;
-      border: 3px solid #f28e8e;
+      border: 3px solid #3498db;
       margin-left: 20px;
     }
-
-    .section {
-      border: 1px solid #f3c873;
-      margin-top: 20px;
-      padding: 15px;
-      border-radius: 8px;
-      background-color: #a8e8ec;
+    
+    h1 {
+      color: #2c3e50;
+      margin: 0 0 5px 0;
+      font-size: 28px;
     }
-
-    .section h2 {
-      background-color: #3498db;
-      color: white;
-      margin: -15px -15px 15px -15px;
-      padding: 10px;
-      border-top-left-radius: 8px;
-      border-top-right-radius: 8px;
+    
+    .contact {
+      color: #555;
+      margin: 5px 0;
     }
-
+    
+    h2 {
+      color: #3498db;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      margin: 25px 0 15px 0;
+    }
+    
     ul {
-      margin: 0;
       padding-left: 20px;
     }
-
+    
+    li {
+      margin-bottom: 8px;
+    }
+    
+    strong {
+      color: #2c3e50;
+    }
+    
     a {
-      color: #ecf0f1;
+      color: #3498db;
       text-decoration: none;
     }
-
+    
     a:hover {
       text-decoration: underline;
+    }
+    
+    @media (max-width: 600px) {
+      .header {
+        flex-direction: column;
+        text-align: center;
+      }
+      
+      .header img {
+        margin: 15px 0 0 0;
+      }
+      
+      .container {
+        padding: 15px;
+      }
     }
   </style>
 </head>
@@ -78,68 +103,68 @@
   <div class="container">
     <div class="header">
       <div class="header-text">
-        <h1>JANARDHAN NAIK RAMAVATH</h1>
-        <p>Email: rrjanardhannaik@gmail.com | Phone: +91 7997680199</p>
-        <p><a href="https://www.linkedin.com/in/janardhan-naik-ramavath" target="_blank">LinkedIn Profile</a> | D.O.B: 31/05/2003</p>
+        <h1>Janardhan Naik Ramavath</h1>
+        <p class="contact">Electronics and Communication Engineer</p>
+        <p class="contact">Email: rrjanardhannaik@gmail.com | Phone: +91 7997680199</p>
+        <p class="contact"><a href="https://www.linkedin.com/in/janardhan-naik-ramavath" target="_blank">LinkedIn</a> | D.O.B: 31/05/2003</p>
       </div>
-      <img src="photo.jpg" alt="Janardhan Naik Photo">
+      <img src="photo.jpg" alt="Profile Photo">
     </div>
 
-    <div class="section">
-      <h2>Objective</h2>
-      <p>To cultivate a successful career within an organization where I can continuously expand my knowledge, skills, and abilities.</p>
-    </div>
+    <h2>Objective</h2>
+    <p>Seeking opportunities to apply my electronics and communication engineering skills in a professional environment where I can contribute to meaningful projects while continuing to learn and grow.</p>
 
-    <div class="section">
-      <h2>Education</h2>
-      <ul>
-        <li><strong>B.Tech in ECE</strong> – 6.93 CGPA (Pursuing) – PVPSIT, Vijayawada (2026)</li>
-        <li><strong>Diploma in ECE</strong> – 72.34% – Priyadarshini Institute, Guntur (2023)</li>
-        <li><strong>SSC</strong> – 98.6% – Ravindra Bharathi EM School, Nellore (2020)</li>
-      </ul>
-    </div>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech in ECE</strong> – PVPSIT, Vijayawada (2026) – CGPA: 6.93</li>
+      <li><strong>Diploma in ECE</strong> – Priyadarshini Institute, Guntur (2023) – 72.34%</li>
+      <li><strong>SSC</strong> – Ravindra Bharathi EM School, Nellore (2020) – 98.6%</li>
+    </ul>
 
-    <div class="section">
-      <h2>Technical Skills</h2>
-      <ul>
-        <li><strong>Electronics:</strong> PCB Designing, Circuit Designing, IoT, VLSI</li>
-        <li><strong>Tools:</strong> MATLAB, Multisim, Vivado, Ansys, Xilinx</li>
-        <li><strong>Languages:</strong> C, Java (Intermediate)</li>
-      </ul>
-    </div>
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Electronics:</strong> PCB Designing, Circuit Designing, IoT, VLSI</li>
+      <li><strong>Tools:</strong> MATLAB, Multisim, Vivado, Ansys, Xilinx</li>
+      <li><strong>Programming:</strong> C, Java (Intermediate)</li>
+    </ul>
 
-    <div class="section">
-      <h2>Internships</h2>
-      <ul>
-        <li><strong>Embedded Systems – Sense Semiconductor:</strong> Worked on microcontrollers, sensors, actuators, UART, SPI, I2C protocols.</li>
-        <li><strong>Optical Fiber Communication – Sunglare Tech:</strong> Gained hands-on experience and understanding of fiber networks.</li>
-      </ul>
-    </div>
+    <h2>Experience</h2>
+    <ul>
+      <li>
+        <strong>Embedded Systems Intern</strong> – Sense Semiconductor<br>
+        • Worked with microcontrollers, sensors, and actuators<br>
+        • Gained experience with UART, SPI, I2C protocols
+      </li>
+      <li>
+        <strong>Optical Fiber Communication Intern</strong> – Sunglare Tech<br>
+        • Hands-on experience with fiber networks
+      </li>
+    </ul>
 
-    <div class="section">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>Automated Street Light Control:</strong> Energy-saving system that operates during night hours.</li>
-        <li><strong>Community Service Project:</strong> Survey on the 17 Sustainable Development Goals (SDGs) to promote awareness and collective action.</li>
-      </ul>
-    </div>
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Automated Street Light Control</strong><br>
+        • Energy-saving system that operates during night hours
+      </li>
+      <li>
+        <strong>SDG Awareness Survey</strong><br>
+        • Community project promoting Sustainable Development Goals
+      </li>
+    </ul>
 
-    <div class="section">
-      <h2>Certifications</h2>
-      <ul>
-        <li>Spoken Tutorial IIT Bombay – JAVA, Arduino, Python</li>
-        <li>Infosys Springboard – IoT Foundation Course</li>
-        <li>APSSDC – PCB Design</li>
-      </ul>
-    </div>
+    <h2>Certifications</h2>
+    <ul>
+      <li>Spoken Tutorial IIT Bombay – JAVA, Arduino, Python</li>
+      <li>Infosys Springboard – IoT Foundation Course</li>
+      <li>APSSDC – PCB Design</li>
+    </ul>
 
-    <div class="section">
-      <h2>Extra & Co-Curricular Activities</h2>
-      <ul>
-        <li>Participated in Circuitrix – SITAR 2K24 at PVPSIT</li>
-        <li>Participated in Technical Quiz – SITAR 2K24 at PVPSIT</li>
-      </ul>
-    </div>
+    <h2>Activities</h2>
+    <ul>
+      <li>Participated in Circuitrix – SITAR 2K24 at PVPSIT</li>
+      <li>Participated in Technical Quiz – SITAR 2K24 at PVPSIT</li>
+    </ul>
   </div>
 </body>
 </html>
